@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: rgb(221, 221, 221);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.header{
+    display: flex;
+    box-shadow: 0 0 20px black;
+    width: 96.7vw;
+    height: 60px;
+    background-color: black;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 25px;
+}
+
+.logo{
+    color: white;
+    text-transform: lowercase;
+    letter-spacing: -3px;
+    justify-content: center;
+}
+
+span{
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+}
+
+.menu li{
+    position: relative;
+}
+
+.menu li a{
+    padding: 18px;
+    text-decoration: none;
+    color: rgb(141, 139, 139);
+    font-size: 19px;
+    display: block;    
+}
+
+.menu a{
+    border-radius: 3px;
+}
+
+.menu li:hover{
+    background: rgb(230, 230, 230);
+    color: black;
+}
+
+.menu li:hover > .submenu{
+    display: block;
+    list-style: none;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 57.4px;
+    left: 0;
+    background: black;
+    color: white;
+    text-align: center;
+    font-size: 17px;
+}
+
+.submenu li :hover {
+    color: black;
+    font-size: 24px;
+}
+
+.header a .buy:hover {
+    width: 30px;
+    height: 30px;
+}
+
+.banner img{
+    justify-content: center;
+    margin-bottom: 0;
+    text-align: center;
+    width: 100vw;
+    height: 210px;
+    padding: 0;
+}
